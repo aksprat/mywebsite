@@ -56,6 +56,18 @@
         <h2>Welcome to my website!</h2>
         <p>This is a simple static website hosted on Digitalocean App platform, using GitHub repository.</p>
     </section>
+    <button id="clickMeButton">Click Me!</button>
+      <p id="message">Click the button to change this message.</p>
+
+      <script>
+        const button = document.getElementById('clickMeButton');
+        const message = document.getElementById('message');
+
+        button.addEventListener('click', () => {
+          message.textContent = "You clicked the button!";
+    });
+  </script>
+</body>
     <footer>
         &copy; 2024 My Static Website
     </footer>
