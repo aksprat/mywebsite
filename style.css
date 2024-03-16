@@ -25,6 +25,9 @@ nav a {
 section {
         height:100%;
         width:100%;
+        padding: 60px;
+        padding-left: 120px;
+        box-sizing:border-box;
         background-image: url("background.png");
         background-size: auto;
         }
