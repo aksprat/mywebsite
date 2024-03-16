@@ -23,13 +23,11 @@ nav a {
         padding: 0 10px;
         }
 section {
-        height:200%;
-        width:200%;
         padding: 60px;
         padding-left: 120px;
         box-sizing:border-box;
         background-image: url("background.png");
-        background-size: 100% 100%;
+        background-size: 100%;
         }
 footer {
         background-color: #333;
