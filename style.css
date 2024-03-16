@@ -27,7 +27,7 @@ section {
         padding-left: 120px;
         box-sizing:border-box;
         background-image: url("background.png");
-        background-size: 100%;
+        background-size: auto;
         }
 footer {
         background-color: #333;
