@@ -7,31 +7,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
-    		<div class="lp-pom-image-container" style="overflow: hidden;">
-	    		<img src="//d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/cloud/f9bab6e8-do-logo-2023.svg" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/cloud/f9bab6e8-do-logo-2023.svg">
-		</div>
-		<h1>STATIC TEST WEBSITE</h1>
-    	</header>
-    <nav>
-        <a href="#">Home</a>
+<header>
+    <div class="lp-pom-image-container" style="overflow: hidden;">
+	<img src="//d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/cloud/f9bab6e8-do-logo-2023.svg" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/cloud/f9bab6e8-do-logo-2023.svg">
+    </div>
+    <h1>STATIC TEST WEBSITE</h1>
+</header>
+<nav>
+	<a href="#">Home</a>
         <a href="#">About</a>
         <a href="Contact.html">Contact</a>
-    </nav>
+</nav>
 <section>
         <h2>Welcome to my website!</h2>
         <p>This is a simple static website hosted on Digitalocean App platform, using GitHub repository.</p>
-    <button id="clickMeButton">Click Me!</button>
-      <p id="message">Click the button to change this message.</p>
-
-      <script>
-        const button = document.getElementById('clickMeButton');
-        const message = document.getElementById('message');
-
-        button.addEventListener('click', () => {
-          message.textContent = "You clicked the button!";
-    });
-  </script>
+    	<button id="clickMeButton">Click Me!</button>
+      	<p id="message">Click the button to change this message.</p>
+      	<script>
+        	const button = document.getElementById('clickMeButton');
+        	const message = document.getElementById('message');
+        	button.addEventListener('click', () => {
+          	message.textContent = "You clicked the button!";
+    	});
+  	</script>
 </section>
 </body>
     <footer>
