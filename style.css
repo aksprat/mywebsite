@@ -24,7 +24,7 @@ nav a {
         }
 section {
         background-image: url("background.png");
-        background-size: 100% 100%;
+        background-size: auto;
         }
 footer {
         background-color: #333;
