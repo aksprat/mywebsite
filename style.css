@@ -23,6 +23,8 @@ nav a {
         padding: 0 10px;
         }
 section {
+        height:100%;
+        width:100%;
         background-image: url("background.png");
         background-size: auto;
         }
