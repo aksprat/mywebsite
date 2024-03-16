@@ -1,11 +1,13 @@
 /* Add your CSS styles here */
 body {
-        background-image: url("background.png");
+        background-image: url("DO1.png");
         font-family: Arial, sans-serif;
         margin: 0;
         padding: 0;
         background-color: #f0f0f0;
-        background-size: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         }
 header {
         background-color: #333;
