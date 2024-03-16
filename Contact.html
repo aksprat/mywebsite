@@ -6,22 +6,22 @@
     <title>Contact Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<body>
 <header>
     <div class="lp-pom-image-container" style="overflow: hidden;">
 	<img src="//d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/cloud/f9bab6e8-do-logo-2023.svg" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/try.digitalocean.com/cloud/f9bab6e8-do-logo-2023.svg">
     </div>
 </header>
-<body>
-    <h1>Contact Us</h1>
-    <p>For any inquiries, please reach out:</p>
-    <form action="/submit_contact" method="post">
-        <label for="name">Name:</label><br>
+<h1>Contact Us</h1>
+<p>For any inquiries, please reach out:</p>
+<form action="/submit_contact" method="post">
+	<label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br>
         <label for="email">Email:</label><br>
         <input type="email" id="email" name="email" required><br>
         <label for="message">Message:</label><br>
         <textarea id="message" name="message" rows="4" required></textarea><br>
         <button type="submit">Submit</button>
-    </form>
+</form>
 </body>
 </html>
