@@ -2,10 +2,9 @@
 body {
         font-family: Arial, sans-serif;
         color: #fff;
-        margin: 0;
         padding: 0;
         background-image: url("dandelion.jpg");
-        background-size: cover;
+        background-size: auto;
         background-position: center;
         background-repeat: no-repeat;
         }
