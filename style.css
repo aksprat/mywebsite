@@ -3,7 +3,7 @@ body {
         font-family: Arial, sans-serif;
         color: #fff;
         margin: 0;
-        padding: 60px;
+        padding: 0;
         background-image: url("digitalocean.jpeg");
         background-size: cover;
         background-position: center;
